@@ -1,0 +1,44 @@
+:root {
+    --button: #008a85;
+    --button-a: #00a19b;
+    --output: #00524f;
+    --card: #00bfa6;
+}
+
+.task-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: var(--output);
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.5);
+    color: var(--card);
+    font-weight: 20;
+    font-size: 20px;
+    word-wrap: break-word;
+    margin-top: 15px;
+}
+
+.task-content {
+    padding: 16px;
+}
+
+.task-action {
+    display: flex;
+    justify-content: flex-end;
+    padding: 8px 16px;
+}
+
+button {
+    cursor: pointer;
+    border: 0;
+    background: var(--button);
+    color: var(--output);
+    width: 100px;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 0.5em 1em;
+    text-align: center;
+    font-weight: 800;
+}

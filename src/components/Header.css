@@ -1,0 +1,57 @@
+:root {
+    --button: #008a85;
+    --button-a: #00a19b;
+    --output: #00524f;
+    --card: #00bfa6;
+}
+
+.container {
+    background-color: var(--output);
+    height: 50px;
+    width: 800px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addTask input {
+    margin-right: 10px;
+    border: 0;
+    background: transparent;
+    border-bottom: 3px solid #555;
+    width: 50%;
+    padding: 8px 0 5px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00bfa6;
+}
+
+.addTask input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #008a85;
+}
+
+.input-container input:focus~label,
+.input-container input:valid~label {
+    top: -12px;
+    font-size: 12px;
+}
+
+.btn {
+    cursor: pointer;
+    border: 0;
+    background: var(--button);
+    color: var(--output);
+    width: 40%;
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 0.5em 1em;
+    font-weight: 800;
+}
+
+.btn:hover {
+    background: var(--button-a);  
+}
