@@ -1,6 +1,7 @@
 # To-Do App
 
 This project is a simple To-Do App written in React
+Project Link: [https://github.com/Karxem/todo-app]
 
 ## Available Scripts
 
@@ -18,7 +19,5 @@ You may also see any lint errors in the console.
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-
-Project Link: [https://github.com/Karxem/todo-app]
 
 <p align="right">(<a href="#top">Back to top</a>)</p>
