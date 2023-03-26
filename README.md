@@ -1,6 +1,7 @@
 # To-Do App
 
 This project is a simple To-Do App written in React
+
 Project Link: [https://github.com/Karxem/todo-app]
 
 ## Available Scripts
